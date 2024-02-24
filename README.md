@@ -26,7 +26,6 @@ To get started with Template, follow these steps:
 2. Open the project in Android Studio.
 3. Build and run the application on your device or emulator.
 
-For more detailed instructions on how to use each feature and customize the template for your own projects, refer to the documentation provided in the repository.
 
 ## License
 
