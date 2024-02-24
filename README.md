@@ -2,7 +2,12 @@
 
 It a comprehensive Android application template designed to expedite the development process by integrating a variety of modern Android technologies and architectural patterns.
 
+
+![shablon](https://github.com/wookoowooko/Free_Template_Jetpack_Compose_CleanArchitecture_MultiModule_MVI_SqlDelight_CRUD_Voyager_Koin/assets/39335061/21817d0f-5f21-4025-902c-b566f4b83a88)
+
+
 ## Features
+
 
 - **Jetpack Compose**: Utilizes the latest UI toolkit for building native Android apps.
 - **Clean Architecture**: Implements a modular and scalable architecture for better separation of concerns and maintainability.
@@ -26,5 +31,7 @@ For more detailed instructions on how to use each feature and customize the temp
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
 
 
