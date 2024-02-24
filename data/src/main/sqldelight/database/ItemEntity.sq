@@ -1,0 +1,31 @@
+CREATE TABLE IF NOT EXISTS ItemEntity(
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL UNIQUE,
+    description TEXT NOT NULL
+);
+
+INSERT INTO ItemEntity(title, description) VALUES
+    ('title 1', 'description 1'),
+    ('title 2', 'description 2'),
+    ('title 3', 'description 3'),
+    ('title 4', 'description 4'),
+    ('title 5', 'description 5');
+
+
+getAllItems:
+SELECT * FROM ItemEntity;
+
+
+createNewItem:
+INSERT OR REPLACE INTO ItemEntity(title, description)
+VALUES (?,?);
+
+deleteItemById:
+DELETE FROM ItemEntity
+WHERE id = :id;
+
+updateItemById:
+UPDATE ItemEntity
+SET title = :newTitle,
+    description = :newDescription
+WHERE id = :id;
