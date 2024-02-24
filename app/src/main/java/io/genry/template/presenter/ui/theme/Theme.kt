@@ -38,7 +38,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun Template_Compose_Mvi_SqlDelight_Voyager_Koin_MultiModuleTheme(
+fun Template_Jetpack_Compose_CleanArchitecture_MultiModule_MVI_SqlDelight_CRUD_Voyager_Koin(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
