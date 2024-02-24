@@ -26,6 +26,11 @@ To get started with Template, follow these steps:
 2. Open the project in Android Studio.
 3. Build and run the application on your device or emulator.
 
+4. ## Other Templates
+
+Explore more Android application templates:
+- [[Free]Template: Jetpack Compose, Clean Architecture, Multi-Module, MVVM, Room, CRUD, Destinations, Dagger/Hilt](https://github.com/wookoowooko/Template_Jetpack_Compose_CleanArchitecture_MultiModule_MVVM_ROOM_CRUD_Destinations_Dagger_Hilt)
+
 
 ## License
 
